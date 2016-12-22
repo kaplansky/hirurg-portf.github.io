@@ -741,7 +741,7 @@ h1.descr-sec6 {
 	cursor: pointer;
 }
 
-.load-doctor {
+a.load-doctor {
 	display: block;
   margin: 0 auto;
   margin: 25px auto;
@@ -753,6 +753,11 @@ h1.descr-sec6 {
   color: #5d5d5d;
   text-align: center;
   line-height: 40px;
+}
+
+a.load-doctor:hover {
+	border: 1px solid #999999;
+	color: #999999;
 }
 
 .sec7 {
