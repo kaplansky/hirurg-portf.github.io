@@ -1,5 +1,35 @@
 $(function() {
 
+	$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+  	dots: false,
+  	loop: true,
+  	margin: 15,
+  	autoWidth: false,
+  	 responsive:{
+	        0:{
+	            items:1
+	        },
+	        800:{
+	            items:2
+	        },
+	        1000:{
+	            items:3
+	        }
+	    }
+  	});
+	});
+
+	var owl = $('.owl-carousel');
+
+	$('.arr-left').click(function(){
+		owl.trigger('prev.owl.carousel');
+	});
+
+	$('.arr-right').click(function(){
+		owl.trigger('next.owl.carousel');
+	});
+
 	//SVG Fallback
 	if(!Modernizr.svg) {
 		$("img[src*='svg']").attr("src", function() {

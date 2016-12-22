@@ -191,7 +191,7 @@ button:active {
 
 .face-normal {
 	position:fixed;
-	top: -10.5%;
+	top: -10.8%;
   left: 45%;
   z-index: 150;
   background-repeat: no-repeat;
@@ -202,7 +202,7 @@ button:active {
 
 .face-xray {
 	position: fixed;
-	top: -10.5%;
+	top: -10.8%;
   left: 45.9%;
 	z-index: 100;
 	background-repeat: no-repeat;
@@ -508,6 +508,8 @@ h1.descr-sec1 {
 	background-position: 96% 0;
 }
 
+
+
 .sec4-text h3 {
 	font-size: 21;
 	font-family: inherit;
@@ -557,6 +559,7 @@ h1.descr-sec1 {
 .sec5-item {
 	margin-top: 40px;
 	text-align: center;
+	z-index: 100;
 }
 
 
@@ -583,6 +586,25 @@ h1.descr-sec1 {
 	background-position: 98% 0;
 }
 
+.sec5-item:nth-child(1) .sec5-icon:hover{
+	background-position-y:-1px;
+	background-image: url(../img/icon-set3-hover.png);
+}
+
+.sec5-item:nth-child(2) .sec5-icon:hover{
+	background-image: url(../img/icon-set3-hover.png);
+}
+
+.sec5-item:nth-child(3) .sec5-icon:hover{
+	background-image: url(../img/icon-set3-hover.png);
+}
+
+.sec5-item:nth-child(4) .sec5-icon:hover{
+	background-position-y: -2px;
+	background-image: url(../img/icon-set3-hover.png);
+}
+
+
 .sec5-number {
 	font-size: 30px;
 	color: #879E9F;
@@ -594,6 +616,26 @@ h1.descr-sec1 {
 	display: inline-block;
 	line-height: 20px;
 }
+
+.arrows {
+	position: absolute;
+	top: 0;
+	top: 150px;
+  width: 100%;
+  padding-left: 8%;
+}
+
+.arrow {
+	background-image: url(../img/arrow.png);
+	width: 67px;
+	height: 30px;
+}
+
+.arrow.middle {
+	margin-left: 93px;
+
+}
+
 
 .sec2-c {
 	margin-top: -40px;
@@ -616,7 +658,6 @@ h1.descr-sec1 {
 	position: relative;
 	z-index: 300;
 	background: #fff;
-	padding: 60px 0;
 
 }
 
@@ -633,7 +674,6 @@ h1.descr-sec6 {
   border-left: 7px #BD0C00 solid;
   width: 75%;
   font-family: "TimesNewRomanRegular", sans-serif;
-  font-weight: 200;
 }
 
 .sec6 span {
@@ -655,11 +695,71 @@ h1.descr-sec6 {
 	font-size: 25px;
 }
 
+.sec6-sertificate {
+	min-height: 350px;
+	background-image: url(../img/section6.png);
+	position: relative;
+	height: 100%;
+}
+
+.sec6-sertificate .container {
+	position: relative;
+}
+
+.sertificates {
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+
+.owl-carousel .owl-item img {
+	min-height: 215px;
+	height: 100%;
+}
+
+
+.arr-left {
+	background-image: url(../img/arrow-set.png);
+	height: 60px;
+	width: 40px;
+	position: absolute;
+	top: 110px;
+	left: 0;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.arr-right {
+	background-image: url(../img/arrow-set.png);
+	height: 60px;
+	width: 40px;
+	background-position: 70% 0;
+	position: absolute;
+	top: 110px;
+	right: 0;
+	cursor: pointer;
+}
+
+.load-doctor {
+	display: block;
+  margin: 0 auto;
+  margin: 25px auto;
+  width: 280px;
+  padding: 0 15px;
+  border: 1px solid #5d5d5d;
+  text-decoration: none;
+  font-size: 20px;
+  color: #5d5d5d;
+  text-align: center;
+  line-height: 40px;
+}
+
 .sec7 {
 	height: 470px;
 	position: relative;
 	z-index: 300;
-	background-image: url(../img/header.jpg);
+	background-color: #fff;
 	background-repeat: no-repeat;
 }
 
@@ -671,7 +771,7 @@ h1.descr-sec6 {
 }
 
 .sec7-text h1{
-	color: #fff;
+	color: #00675f;
 }
 
 .map {
@@ -681,7 +781,7 @@ h1.descr-sec6 {
 	height: 209px;
 	z-index: 600;
 	top: 20%;
-  left: 45.8%
+  left: 44.7%
 }
 
 .sec7-map {

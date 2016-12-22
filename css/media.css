@@ -43,6 +43,14 @@
 	.sec4-text p {
 		width: auto;
 	}
+
+	.arrows {
+		padding-left: 5%;
+	}
+
+	.map {
+		left: 43.7%;
+	}
 }
 
 @media only screen and (max-width : 1000px) {
@@ -73,6 +81,10 @@
 	.sec7-text h1 {
 		font-size: 33px;
 	}
+
+	.arrows {
+		display: none;
+	} 
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
