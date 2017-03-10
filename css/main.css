@@ -766,6 +766,7 @@ a.load-doctor:hover {
 	z-index: 300;
 	background-color: #fff;
 	background-repeat: no-repeat;
+	background-image: url(../img/header.jpg);
 }
 
 .sec7 span {
